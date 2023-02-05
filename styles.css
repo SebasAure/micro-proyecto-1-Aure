@@ -186,3 +186,6 @@ ul{
     height: 180px;
 }
 
+.experience-container a:hover {
+    border-bottom: 2px solid #ffffff;
+}
