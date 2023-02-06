@@ -95,14 +95,14 @@ ul{
 }
 
 .next{
-    right: 20%;
+    right: 5%;
     
     border-radius: 3px 0 0 3px;
 
 }
 
 .prev{
-    left: 20%;
+    left: 5%;
     
     border-radius: 3px 0 0 3px;
 
@@ -188,4 +188,59 @@ ul{
 
 .experience-container a:hover {
     border-bottom: 2px solid #ffffff;
+}
+
+/*  About me section  */
+
+.about-me-section{
+    width: 100%;
+    max-width: 1450px;
+    height: 100vh;
+    padding: 40px;
+    background: #191919;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.about-me-section img {
+    height: 500px;
+    width: 420px;
+    
+}
+
+.about-me-container {
+    width: 1450px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.about-me-text h1{
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-me-text h5{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+span{
+    color: #f9004d;
+}
+
+.about-me-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
 }
